@@ -30,7 +30,7 @@ export default function News() {
     ];
 
     const businessUnits = [
-        "PBR Chemicals", "PBR Chemicals", "PBR Chemicals", "PBR Chemicals", "PBR Chemicals", "PBR Chemicals", "PBR Chemicals", "PBR Chemicals", "PBR Chemicals", "PBR Chemicals"
+        "PBR Chemicals",
     ];
 
     return (
@@ -207,23 +207,23 @@ export default function News() {
                     <table className="min-w-full border border-gray-200 rounded-lg overflow-hidden">
                         <thead className="bg-gray-100 border-b">
                             <tr>
-                                <th className="py-3 px-6 text-left font-semibold text-gray-700">หัวข้อ</th>
-                                <th className="py-3 px-6 text-left font-semibold text-gray-700">ประเภท</th>
+                                <th className="py-3 px-6 text-left font-semibold text-gray-700">Title</th>
+                                <th className="py-3 px-6 text-left font-semibold text-gray-700">Category</th>
                                 <th className="py-3 px-6 text-center font-semibold text-gray-700">Download</th>
                             </tr>
                         </thead>
                         <tbody className="divide-y">
                             <tr className="hover:bg-gray-50">
-                                <td className="py-3 px-6 text-left text-gray-800">คู่มือการใช้งาน</td>
-                                <td className="py-3 px-6 text-left">เอกสารเผยเเพร่</td>
+                                <td className="py-3 px-6 text-left text-gray-800">User Manual</td>
+                                <td className="py-3 px-6 text-left">Document</td>
                                 <td className="py-3 px-6 text-center">
                                     <button className="text-blue-600 hover:text-blue-800 font-semibold">Download</button>
                                 </td>
                             </tr>
 
                             <tr className="hover:bg-gray-50">
-                                <td className="py-3 px-6 text-left text-gray-800">ข้อควรระวังในการใช้งาน</td>
-                                <td className="py-3 px-6 text-left">เอกสารเผยเเพร่</td>
+                                <td className="py-3 px-6 text-left text-gray-800">Usage Precautions</td>
+                                <td className="py-3 px-6 text-left">Document</td>
                                 <td className="py-3 px-6 text-center">
                                     <button className="text-blue-600 hover:text-blue-800 font-semibold">Download</button>
                                 </td>
@@ -231,7 +231,6 @@ export default function News() {
                         </tbody>
                     </table>
                 </div>
-
                 {/* Icon Row */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div>

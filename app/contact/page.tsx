@@ -25,7 +25,7 @@ export default function Contact() {
           {/* Company Block */}
           <div className="p-6 rounded-xl bg-white shadow hover:shadow-lg transition">
             <h3 className="font-semibold text-gray-800 mb-2 text-lg">Company</h3>
-            <p className="text-gray-600 font-medium">PBRGROUP CO., LTD.</p>
+            <p className="text-gray-600 font-medium">PBR AUTOMATION CO., LTD.</p>
             <p className="text-gray-600 mt-2 text-sm">
               33 Mu 3, Surasak Sub-district,<br/>
               Si Racha District, Chonburi 20110<br/>
@@ -44,7 +44,7 @@ export default function Contact() {
               <FaEnvelope className="text-blue-600" /> pbr@automation.co.th
             </div>
 
-            <a href="https://www.pbrgroup.co.th" target="_blank"
+            <a href="https://www.pbrautomation.co.th" target="_blank"
               className="flex items-center gap-3 text-blue-600 hover:underline">
               <FaGlobe /> www.pbrgroup.co.th
             </a>
@@ -54,10 +54,10 @@ export default function Contact() {
               <FaMapMarkerAlt /> Google Map Location
             </a>
 
-            {/* <a href="#" target="_blank"
+            <a href="#" target="_blank"
               className="flex items-center gap-3 text-blue-600 hover:underline">
               <FaLinkedin /> LinkedIn Company Profile
-            </a> */}
+            </a>
 
           </div>
         </div>
