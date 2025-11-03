@@ -5,7 +5,6 @@ import { useState } from "react";
 
 export default function News() {
     const [selected, setSelected] = useState(null);
-
     const highlights = [
         {
             title: "Superior Corrosion Protection",
@@ -30,7 +29,7 @@ export default function News() {
     ];
 
     const businessUnits = [
-        "PBR Chemicals",
+        "PBR Chemicals", ""
     ];
 
     return (
@@ -153,7 +152,7 @@ export default function News() {
                     className="absolute inset-0"
                 >
                     <Image
-                        src="/about/company_image.jpeg"
+                        src="/about/company_image.png"
                         alt="about"
                         fill
                         className="object-cover brightness-75"
@@ -248,13 +247,13 @@ function HighlightsSection() {
         {
             icon: "💡",
             bg: "bg-red-100 text-red-700",
-            value: "207,113 MTHB",
+            value: "2 MTHB",
             text: "Revenue from eco-friendly products, services, and solutions during the first 9 months of 2024.",
         },
         {
             icon: "🌱",
             bg: "bg-green-100 text-green-700",
-            value: "67%",
+            value: "57%",
             text: "Target share of sales from eco-friendly products, services, and solutions by 2030.",
         },
         {
@@ -266,13 +265,13 @@ function HighlightsSection() {
         {
             icon: "🏢",
             bg: "bg-yellow-100 text-yellow-700",
-            value: "400+",
+            value: "5+",
             text: "Subsidiaries and affiliated companies.",
         },
         {
             icon: "🔬",
             bg: "bg-blue-100 text-blue-700",
-            value: "6,701 MTHB",
+            value: "301 MTHB",
             text: "Research and development expenditure in 2023.",
         },
     ];

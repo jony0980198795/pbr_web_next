@@ -29,12 +29,17 @@ export default function Innovation() {
         {
             title: "PIPELINE",
             description:
-                "1. Industrial pipelines are exposed to high temperatures, pressure, and corrosive substances — graphene coatings improve durability and thermal conductivity.\n2. Companies like CUBSON use graphene-based powder coatings for oil and gas pipelines to enhance resistance to heat and chemicals.",
+                "1. Industrial pipelines are exposed to high temperatures, pressure, and corrosive substances — graphene coatings improve durability and thermal conductivity.\n\n2. Companies like CUBSON use graphene-based powder coatings for oil and gas pipelines to enhance resistance to heat and chemicals.",
             image: "/innovation/pipeline.jpg",
             hoverImage: "/innovation/4.png",
         },
+        {
+            title: "MILITARY",
+            description: "Armor and Protective Equipment\n 1.Personal Armor(Body Armor/ Helmets) Graphene coatings or inclusions to increase strength and impact resistance Weight reduction and improved mobility\n\n2.Vehicle Armor Graphene is incorporated into composite materials for armored vehicles to reduce weight while maintaining strength",
+            image: "/innovation/tank.png",
+            hoverImage: "/innovation/solder.png"
+        }
     ];
-
 
     return (
         <main className="min-h-screen bg-gradient-to-b from-white via-gray-50 to-gray-100 py-20 px-6 md:px-12">
