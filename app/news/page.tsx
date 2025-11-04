@@ -29,7 +29,7 @@ export default function News() {
     ];
 
     const businessUnits = [
-        "PBR Chemicals", ""
+        "PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals",
     ];
 
     return (
