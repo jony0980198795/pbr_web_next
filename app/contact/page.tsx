@@ -46,12 +46,12 @@ export default function Contact() {
                         </div>
 
                         <div className="flex items-center gap-3 text-gray-700">
-                            <FaEnvelope className="text-blue-600" /> pbrgroup2025@gmail.com
+                            <FaEnvelope className="text-blue-600" /> pbr@pbr.co.th
                         </div>
 
                         <a href="https://www.pbrautomation.co.th" target="_blank"
                             className="flex items-center gap-3 text-blue-600 hover:underline">
-                            <FaGlobe /> www.pbrgroup.co.th
+                            <FaGlobe /> www.pbr.co.th
                         </a>
 
                         <a href="https://goo.gl/maps/" target="_blank"
@@ -59,7 +59,7 @@ export default function Contact() {
                             <FaMapMarkerAlt /> Google Map Location
                         </a>
                         <h3 className="font-semibold text-gray-800 mb-2 text-lg">Company</h3>
-                        <p className="text-gray-600 font-medium">PBR AUTOMATION CO., LTD.</p>
+                        <p className="text-gray-600 font-medium">PBR CO., LTD.</p>
                         <p className="text-gray-600 mt-2 text-sm">
                             33 Mu 3, Surasak Sub-district,<br />
                             Si Racha District, Chonburi 20110<br />

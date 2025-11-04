@@ -41,7 +41,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="text-white text-4xl md:text-6xl font-bold mb-4"
           >
-            PBRGROUP
+            PBR Company Limited
           </motion.h1>
 
           <motion.p

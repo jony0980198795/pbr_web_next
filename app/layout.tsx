@@ -5,8 +5,8 @@ import Footer from "../components/footer/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PBR GROUP",
-  description: "PBR GROUP",
+  title: "PBR",
+  description: "PBR",
 };
 
 export default function RootLayout({

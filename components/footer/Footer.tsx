@@ -29,7 +29,7 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Address</h3>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/partner">PBRGROUP Company Limited</Link></li>
+            <li><Link href="/partner">PBR Company Limited</Link></li>
             <p>33 Mu 3, Surasak Sub-district, Si Racha District, Chonburi 20110 THAILAND.</p>
           </ul>
         </div>
@@ -38,7 +38,7 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Contact US</h3>
           <p>Phone: +66(0)86 3636 324</p>
-          <p className="text-sm">E-mail: pbr@pbrgroup.com</p>
+          <p className="text-sm">E-mail: pbr@pbr.co.th</p>
           <div>
             <Image
               src="/about/dbd.png"
@@ -63,7 +63,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-xs text-gray-500">
-       Copyright 2025 © PBRGROUP Company Limited
+       Copyright 2025 © PBR Company Limited
       </div>
     </footer>
   );
