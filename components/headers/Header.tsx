@@ -54,7 +54,7 @@ export default function Header() {
             <nav className="hidden lg:flex gap-8 text-white font-medium items-center">
               {[
                 { href: "/", label: "Home" },
-                { href: "/products", label: "Products" },
+                { href: "/product_prev", label: "Products" },
                 { href: "/innovation", label: "Innovation" },
                 { href: "/news", label: "News" },
                 { href: "/about_us", label: "About Us" },

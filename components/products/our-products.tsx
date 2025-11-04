@@ -9,28 +9,28 @@ const products = [
         title: "GRAPHENE OXIDE POWDER",
         details:
             "High-purity Graphene Oxide Powder engineered for exceptional dispersion and surface activity. Ideal for advanced applications in composites, coatings, energy storage, and research development. Ensures consistent quality, scalability, and superior performance.",
-        link: "/products",
+        link: "/product_prev",
     },
     {
         src: "/products/braw.jpg",
         title: "REDUCED GRAPHENE OXIDE POWDER",
         details:
             "With high conductivity and enhanced stability. Engineered for advanced applications in electronics, energy storage, sensors, and high-performance composites, ensuring consistent quality and superior functionality",
-        link: "/products",
+        link: "/product_prev",
     },
     {
         src: "/products/bottle_brow.jpg",
         title: "GRAPHENE OXIDE IN SUSPENSION",
         details:
             "High-purity dispersion ready for advanced applications in coatings, composites, energy storage, and research. Ensures uniform performance and superior processability",
-        link: "/products",
+        link: "/product_prev",
     },
     {
         src: "/products/bottle_black.jpg",
         title: "REDUCED GRAPHENE OXIDE IN SUSPENSION",
         details:
             "Highly conductive, stable dispersion engineered for advanced applications in electronics, energy storage, sensors, and high-performance composites. Ensures consistent quality and superior processability",
-        link: "/products",
+        link: "/product_prev",
     },
 ];
 
