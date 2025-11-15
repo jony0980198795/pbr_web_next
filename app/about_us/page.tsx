@@ -12,7 +12,7 @@ const AboutUs = () => {
                 {/* 🔹 รูปพื้นหลัง */}
                 <Image
                     src="/about/company.jpg"
-                    alt="PBR Automation Company"
+                    alt="PBR Company"
                     fill
                     className="object-cover"
                     priority
@@ -29,10 +29,7 @@ const AboutUs = () => {
                         transition={{ duration: 0.8 }}
                         className="text-4xl md:text-6xl font-extrabold text-white drop-shadow-xl mb-4"
                     >
-                        About{" "}
-                        <span>
-                            PBRGROUP
-                        </span>
+                        About{" "} PBR
                     </motion.h1>
 
                     <motion.p
@@ -41,10 +38,7 @@ const AboutUs = () => {
                         transition={{ duration: 1, delay: 0.2 }}
                         className="text-gray-100 md:text-lg leading-relaxed max-w-3xl"
                     >
-                        The company <b>PBR Automation Co., Ltd.</b> specializes in the design and manufacturing
-                        of machinery, as well as the development of innovative nanotechnology materials,
-                        driving Thailand’s industry toward <b>Industry 4.0</b> with quality, standards,
-                        and world-class expertise.
+                        PBR is a leading developer of graphene a next-generation material poised to transform industries. We focus on the research and development of advanced manufacturing technologies that meet the evolving needs of diverse industrial applications, driving efficient and scalable real-world solutions.
                     </motion.p>
                 </div>
             </section>
@@ -61,7 +55,7 @@ const AboutUs = () => {
                         🏢 Company Overview
                     </h2>
                     <p className="leading-relaxed text-gray-700">
-                        PBR Automation Co., Ltd. was established in <b>2023</b> to serve
+                        PBR Co., Ltd. was established in <b>2023</b> to serve
                         industrial sectors with innovative solutions in <b>automation systems</b>,
                         <b>machine design</b>, and <b>engineering consultation</b>. The company also
                         engages in the <b>import and export of spare parts and mechanical equipment</b>.
@@ -87,7 +81,7 @@ const AboutUs = () => {
                     </p>
                     <p className="leading-relaxed text-gray-700">
                         In collaboration with <b>Phisut Logistics Public Co., Ltd.</b> and{" "}
-                        <b>Thai Mechatronics Co., Ltd.</b>, PBR Automation develops
+                        <b>Thai Mechatronics Co., Ltd.</b>, PBR develops
                         large-scale automated production systems and supports
                         advanced industrial innovation in Thailand.
                     </p>

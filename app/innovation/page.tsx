@@ -38,7 +38,19 @@ export default function Innovation() {
             description: "Armor and Protective Equipment\n 1.Personal Armor(Body Armor/ Helmets) Graphene coatings or inclusions to increase strength and impact resistance Weight reduction and improved mobility\n\n2.Vehicle Armor Graphene is incorporated into composite materials for armored vehicles to reduce weight while maintaining strength",
             image: "/innovation/tank.png",
             hoverImage: "/innovation/solder.png"
-        }
+        },
+        {
+            title: "Concreat",
+            description: "Graphene-reinforced concrete is one of the fastest-growing construction material innovations in recent years, as graphene can “enhance” concrete properties in several areas, including strength, water resistance, crack resistance, and durability.",
+            image: "/innovation/concreat.png",
+            hoverImage: "/innovation/concreat_hover.png"
+        },
+         {
+            title: "Wire",
+            description: "“Graphene-based cable insulation” is another promising application in the electrical and electronic materials industry. This is because graphene can significantly enhance the strength, thermal conductivity, and resistance to degradation of insulation.",
+            image: "/innovation/cable.png",
+            hoverImage: "/innovation/cable_hov.png"
+        },
     ];
 
     return (

@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image"
 import { useState } from "react";
+import Link from "next/link";
 
 export default function News() {
     const [selected, setSelected] = useState(null);
@@ -29,7 +30,30 @@ export default function News() {
     ];
 
     const businessUnits = [
-        "PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals","PBR Chemicals",
+        {
+            title: "Construction Materials and Concrete",
+            link: "/our_research/construction",
+        },
+        {
+            title: "Polymers and Coatings",
+            link: "/our_research/polymers",
+        },
+        {
+            title: "Electrical and Energy",
+            link: "/our_research/electrical",
+        },
+        {
+            title: "Environment and Water",
+            link: "/our_research/environment",
+        },
+        {
+            title: "Resources and Recycling",
+            link: "/our_research/resources",
+        },
+        {
+            title: "Health and Sustainable Life Technologies",
+            link: "/our_research/health",
+        },
     ];
 
     return (
@@ -101,6 +125,7 @@ export default function News() {
                     ))}
                 </div>
             </section>
+
             {/* Business Units */}
             <section className="max-w-6xl mx-auto px-6 py-16">
                 {/* 🔹 Title */}
@@ -115,7 +140,7 @@ export default function News() {
                 </motion.h2>
 
                 {/* 🔹 Cards Grid */}
-                <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                     {businessUnits.map((b, i) => (
                         <motion.div
                             key={i}
@@ -134,14 +159,13 @@ export default function News() {
                                 boxShadow: "0 12px 24px rgba(0, 0, 0, 0.15)",
                             }}
                         >
-                            {b}
+                            <Link href={b.link}>
+                                {b.title}
+                            </Link>
                         </motion.div>
                     ))}
                 </div>
             </section>
-            {/* Stats */}
-            <HighlightsSection />
-
             {/* Hero Section */}
             <section className="w-full mt-20 h-[70vh] relative flex items-center justify-center overflow-hidden">
                 {/* 🔹 BG Image พร้อม Zoom-in Animation */}
@@ -199,45 +223,52 @@ export default function News() {
                     </motion.button>
                 </motion.div>
             </section>
+            {/* Stats */}
+            <HighlightsSection />
+
             {/* About Section */}
-            <section className="w-full max-w-6xl py-20 px-6">
+            {/* <section className="w-full max-w-6xl py-20 px-4 md:px-6 mx-auto">
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl font-bold text-gray-900 mb-3">Investor Relations</h2>
-                    <table className="min-w-full border border-gray-200 rounded-lg overflow-hidden">
-                        <thead className="bg-gray-100 border-b">
-                            <tr>
-                                <th className="py-3 px-6 text-left font-semibold text-gray-700">Title</th>
-                                <th className="py-3 px-6 text-left font-semibold text-gray-700">Category</th>
-                                <th className="py-3 px-6 text-center font-semibold text-gray-700">Download</th>
-                            </tr>
-                        </thead>
-                        <tbody className="divide-y">
-                            <tr className="hover:bg-gray-50">
-                                <td className="py-3 px-6 text-left text-gray-800">User Manual</td>
-                                <td className="py-3 px-6 text-left">Document</td>
-                                <td className="py-3 px-6 text-center">
-                                    <button className="text-blue-600 hover:text-blue-800 font-semibold">Download</button>
-                                </td>
-                            </tr>
-
-                            <tr className="hover:bg-gray-50">
-                                <td className="py-3 px-6 text-left text-gray-800">Usage Precautions</td>
-                                <td className="py-3 px-6 text-left">Document</td>
-                                <td className="py-3 px-6 text-center">
-                                    <button className="text-blue-600 hover:text-blue-800 font-semibold">Download</button>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                {/* Icon Row */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div>
-
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Investor Relations</h2>
+                    <div className="overflow-x-auto">
+                        <table className="min-w-full border border-gray-200 rounded-lg overflow-hidden">
+                            <thead className="bg-gray-100 border-b hidden md:table-header-group">
+                                <tr>
+                                    <th className="py-3 px-4 text-left font-semibold text-gray-700">Title</th>
+                                    <th className="py-3 px-4 text-left font-semibold text-gray-700">Category</th>
+                                    <th className="py-3 px-4 text-center font-semibold text-gray-700">Download</th>
+                                </tr>
+                            </thead>
+                            <tbody className="divide-y md:divide-y-0">
+                                {[
+                                    { title: "User Manual", category: "Document" },
+                                    { title: "Usage Precautions", category: "Document" },
+                                ].map((item, idx) => (
+                                    <tr key={idx} className="block md:table-row mb-4 md:mb-0 hover:bg-gray-50 rounded-lg md:rounded-none">
+                                        <td className="block md:table-cell py-2 px-4 text-left md:text-left font-medium text-gray-800">
+                                            <span className="md:hidden font-semibold">Title: </span>
+                                            {item.title}
+                                        </td>
+                                        <td className="block md:table-cell py-2 px-4 text-left md:text-left">
+                                            <span className="md:hidden font-semibold">Category: </span>
+                                            {item.category}
+                                        </td>
+                                        <td className="block md:table-cell py-2 px-4 text-center">
+                                            <button className="text-blue-600 hover:text-blue-800 font-semibold">Download</button>
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-            </section>
 
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <div className="bg-gray-50 p-4 rounded-lg shadow text-center">Icon 1</div>
+                    <div className="bg-gray-50 p-4 rounded-lg shadow text-center">Icon 2</div>
+                    <div className="bg-gray-50 p-4 rounded-lg shadow text-center">Icon 3</div>
+                </div>
+            </section> */}
         </main>
     )
 }
@@ -247,32 +278,32 @@ function HighlightsSection() {
         {
             icon: "💡",
             bg: "bg-red-100 text-red-700",
-            value: "2 MTHB",
-            text: "Revenue from eco-friendly products, services, and solutions during the first 9 months of 2024.",
+            value: "",
+            text: "The company's products and manufacturing processes are of high-quality standards, with a production capacity that can be continuously expanded each year to meet the growing market demand.",
         },
         {
             icon: "🌱",
             bg: "bg-green-100 text-green-700",
-            value: "57%",
-            text: "Target share of sales from eco-friendly products, services, and solutions by 2030.",
+            value: "",
+            text: "Our current production capacity is approximately 2 tons per year.",
         },
         {
             icon: "🏢",
             bg: "bg-yellow-100 text-yellow-700",
-            value: "TOP 1%",
-            text: "Corporate Sustainability Assessment (CSA) by S&P Global in the Building Materials sector, 2024.",
+            value: "",
+            text: "The company is well-prepared to scale up its production capacity in the future in order to meet the growing demands of an expanding industry.",
         },
         {
             icon: "🏢",
             bg: "bg-yellow-100 text-yellow-700",
-            value: "5+",
-            text: "Subsidiaries and affiliated companies.",
+            value: "",
+            text: "Our team consists of highly skilled professionals with deep expertise and a passion for excellence.",
         },
         {
             icon: "🔬",
             bg: "bg-blue-100 text-blue-700",
-            value: "301 MTHB",
-            text: "Research and development expenditure in 2023.",
+            value: "",
+            text: "We focus on the research and development of advanced manufacturing technologies that meet the evolving needs of diverse industrial applications",
         },
     ];
 
@@ -306,7 +337,7 @@ function HighlightsSection() {
                                 {card.icon}
                             </motion.div>
                             <p className="text-3xl font-extrabold text-green-900">{card.value}</p>
-                            <p className="font-bold mt-1 leading-relaxed text-gray-700">
+                            <p className="font-bold mt-1 leading-relaxed text-[12px] text-gray-700">
                                 {card.text}
                             </p>
                         </div>

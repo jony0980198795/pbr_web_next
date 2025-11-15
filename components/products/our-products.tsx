@@ -19,14 +19,14 @@ const products = [
         link: "/product_prev",
     },
     {
-        src: "/products/bottle_brow.jpg",
+        src: "/products/bottle_brow_1.jpg",
         title: "GRAPHENE OXIDE IN SUSPENSION",
         details:
             "High-purity dispersion ready for advanced applications in coatings, composites, energy storage, and research. Ensures uniform performance and superior processability",
         link: "/product_prev",
     },
     {
-        src: "/products/bottle_black.jpg",
+        src: "/products/bottle_black_1.jpg",
         title: "REDUCED GRAPHENE OXIDE IN SUSPENSION",
         details:
             "Highly conductive, stable dispersion engineered for advanced applications in electronics, energy storage, sensors, and high-performance composites. Ensures consistent quality and superior processability",

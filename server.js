@@ -1,14 +1,13 @@
 const { createServer } = require('http');
 const next = require('next');
 
-const dev = false;
-const app = next({ dev });
+const port = process.env.PORT || 3000;
+const app = next({ dev: false });
 const handle = app.getRequestHandler();
 
 app.prepare().then(() => {
-  createServer((req, res) => {
-    handle(req, res);
-  }).listen(process.env.PORT || 3000, () => {
-    console.log('Server is running...');
-  });
+  createServer((req, res) => handle(req, res))
+    .listen(port, () => {
+      console.log(`🚀 Server ready on http://localhost:${port}`);
+    });
 });

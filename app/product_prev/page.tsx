@@ -186,7 +186,7 @@ export default function Products() {
                                         Close
                                     </button>
                                     <a
-                                        href="mailto:pbr@pbrgroup.com"
+                                        href="mailto:pbrgroup2025@gmail.com"
                                         target="_blank"
                                         className="px-6 py-2 bg-black text-white rounded-lg font-medium hover:bg-gray-800 transition shadow-lg"
                                     >

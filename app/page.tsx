@@ -13,6 +13,7 @@ import CustomizedSection from "@/components/customize/customize";
 import ProductSection from "@/components/products/our-products";
 import GrapheneInnovation from "@/components/innovation/page";
 import SpecificationSection from "@/components/specification/page";
+import Th_lang from "./language/lang";
 
 export default function Home() {
   const ref = useRef(null);
@@ -41,7 +42,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="text-white text-4xl md:text-6xl font-bold mb-4"
           >
-            PBR Company Limited
+            Graphene
           </motion.h1>
 
           <motion.p
@@ -59,21 +60,22 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-white text-2xl md:text-xl max-w-xl mt-4"
           >
-            Our graphene materials enhance tire strength, durability, and energy efficiency
-            while reducing rolling resistance and environmental impact —
-            enabling a new generation of high-performance, eco-friendly tires
+            Unlock the limits of the future with the ultimate 2D material.
+            Elevate your products to the next level with advanced nano-graphene solutions.
+            We are experts in delivering graphene solutions tailored to your industry needs.
+
           </motion.p>
         </div>
       </section>
       {/* Our company */}
       <section className="w-full max-w-6xl mx-auto py-12 px-6">
-        <h2 className="text-3xl font-semibold text-center mb-10">Our Story</h2>
+        <h2 className="text-3xl font-semibold text-center mb-10">Our Identity</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { icon: <FaHistory className="text-4xl text-black-600 mb-4" />, title: "Our History", detail: "Founded in 2023 by industry experts." },
-            { icon: <FaLightbulb className="text-4xl text-black-500 mb-4" />, title: "Innovation", detail: "Leading graphene and material science." },
-            { icon: <FaLeaf className="text-4xl text-black-500 mb-4" />, title: "Sustainability", detail: "Eco-friendly and cost-effective solutions." },
-            { icon: <FaGlobe className="text-4xl text-black-500 mb-4" />, title: "Global Reach", detail: "Serving domestic and international markets." },
+            { icon: <FaHistory className="text-4xl text-black-600 mb-4" />, title: "Our History", link: "/about_us", detail: "Founded in 2023 by industry experts." },
+            { icon: <FaLightbulb className="text-4xl text-black-500 mb-4" />, title: "Innovation", link: "/innovation", detail: "Leading graphene and material science." },
+            { icon: <FaLeaf className="text-4xl text-black-500 mb-4" />, title: "Sustainability", link: "/", detail: "Eco-friendly and cost-effective solutions." },
+            { icon: <FaGlobe className="text-4xl text-black-500 mb-4" />, title: "Global Reach", link: "/news", detail: "Serving domestic and international markets." },
           ].map((item, index) => (
             <motion.div
               key={index}
@@ -86,8 +88,10 @@ export default function Home() {
               className="flex flex-col items-center text-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition"
             >
               {item.icon}
-              <h3 className="text-lg font-semibold text-gray-800 mb-2">{item.title}</h3>
-              <p className="text-gray-500 text-sm">{item.detail}</p>
+              <Link href={item.link}>
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">{item.title}</h3>
+                <p className="text-gray-500 text-sm">{item.detail}</p>
+              </Link>
             </motion.div>
           ))}
         </div>
@@ -97,7 +101,7 @@ export default function Home() {
       <ProductSection />
 
       {/* Specification */}
-      <SpecificationSection/>
+      <SpecificationSection />
 
       {/* Customize */}
       <CustomizedSection />
@@ -106,10 +110,10 @@ export default function Home() {
       <HeroSlide />
 
       {/* Preview Section */}
-      <GrapheneInnovation/>
+      <GrapheneInnovation />
 
       {/* Preview Section */}
-      <OurTeam/>
+      <OurTeam />
     </main>
   );
 }

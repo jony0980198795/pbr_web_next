@@ -78,7 +78,7 @@ export const products: Product[] = [
     },
     {
         id: "002",
-        name: "REDUCER GRAPHENE OXIDE POWDER",
+        name: "REDUCED GRAPHENE OXIDE POWDER",
         description:
             "With high conductivity and enhanced stability. Engineered for advanced applications in electronics, energy storage, sensors, and high-performance composites, ensuring consistent quality and superior functionality",
         image: "/products/braw.jpg",
@@ -87,6 +87,7 @@ export const products: Product[] = [
             "/products/rgo_powder/7.png",
             "/products/rgo_powder/8.png",
             "/products/rgo_powder/9.png",
+            
         ],
         details: {
             highlight: "High conductivity, enhanced stability, engineered for advanced technology applications.",
@@ -130,17 +131,17 @@ export const products: Product[] = [
         name: "GRAPHENE OXIDE IN SUSPENSION",
         description:
             "High-purity dispersion ready for advanced applications in coatings, composites, energy storage, and research. Ensures uniform performance and superior processability",
-        image: "/products/bottle_black.jpg",
+        image: "/products/rgo_water/rGO_1000ml.png",
         graph_img: [
-            "/products/rgo_water/6.png",
-            "/products/rgo_water/7.png",
-            "/products/rgo_water/8.png",
-            "/products/rgo_water/9.png",
+            "/products/go_water/1.png",
+            "/products/go_water/2.png",
+            "/products/go_water/3.png",
+            "/products/go_water/4.png",
         ],
         details: {
             highlight: "High conductivity, enhanced stability, engineered for advanced technology applications.",
 
-            packagingSize: ["1 g", "100 g", "500 g", "1,000 g"],
+            packagingSize: ["100 ml", "500 ml", "1,000 ml","5,000 ml","Concentration 1-8 mg/ml"],
 
             properties: {
                 sheetSize: "≈ 4–6 μm",
@@ -176,10 +177,10 @@ export const products: Product[] = [
     },
     {
         id: "004",
-        name: "Reduced Graphene Oxide IN SUSPENSION",
+        name: "REDUCED GRAPHENE OXIDE IN SUSPENSION",
         description:
             "Highly conductive, stable dispersion engineered for advanced applications in electronics, energy storage, sensors, and high-performance composites. Ensures consistent quality and superior processability",
-        image: "/products/bottle_brow.jpg",
+        image: "/products/go_water/GO_1000ml.png",
         graph_img: [
             "/products/go_water/1.png",
             "/products/go_water/2.png",
@@ -189,7 +190,7 @@ export const products: Product[] = [
         details: {
             highlight: "High conductivity, enhanced stability, engineered for advanced technology applications.",
 
-            packagingSize: ["1 g", "100 g", "500 g", "1,000 g"],
+            packagingSize: ["100 ml", "500 ml", "1,000 ml","5,000 ml","Concentration 1-8 mg/ml"],
 
             properties: {
                 sheetSize: "≈ 4–6 μm",
