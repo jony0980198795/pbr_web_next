@@ -42,28 +42,25 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="text-white text-4xl md:text-6xl font-bold mb-4"
           >
-            Graphene
+            Leading the Future
           </motion.h1>
 
           <motion.p
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-white text-lg md:text-4xl max-w-4xl"
+            className="text-white text-lg md:text-6xl font-bold max-w-4xl"
           >
-            Redefining Performance with Graphene
+            of Graphene Oxide
           </motion.p>
 
           <motion.p
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-white text-2xl md:text-xl max-w-xl mt-4"
+            className="text-white text-2xl md:text-2xl max-w-xl mt-4"
           >
-            Unlock the limits of the future with the ultimate 2D material.
-            Elevate your products to the next level with advanced nano-graphene solutions.
-            We are experts in delivering graphene solutions tailored to your industry needs.
-
+            We are shaping the next era of advanced materials through innovation, scale, and uncompromising quality. Our leadership in Graphene Oxide technology drives new possibilities for global industries.
           </motion.p>
         </div>
       </section>

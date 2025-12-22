@@ -55,10 +55,10 @@ export default function Contact() {
                             <FaGlobe /> www.pbr.co.th
                         </a>
 
-                        <a href="https://www.google.com/maps/@13.137469,100.9163066,3a,75y,95.29h,87.44t/data=!3m7!1e1!3m5!1se6ayysBv2d9OCYRBi6wZgA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D2.562630936478442%26panoid%3De6ayysBv2d9OCYRBi6wZgA%26yaw%3D95.29058078327333!7i16384!8i8192?hl=th&entry=ttu&g_ep=EgoyMDI1MTEwNS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
+                        {/* <a href="https://www.google.com/maps/@13.137469,100.9163066,3a,75y,95.29h,87.44t/data=!3m7!1e1!3m5!1se6ayysBv2d9OCYRBi6wZgA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D2.562630936478442%26panoid%3De6ayysBv2d9OCYRBi6wZgA%26yaw%3D95.29058078327333!7i16384!8i8192?hl=th&entry=ttu&g_ep=EgoyMDI1MTEwNS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
                             className="flex items-center gap-3 text-blue-600 hover:underline">
                             <FaMapMarkerAlt /> Google Map Location
-                        </a>
+                        </a> */}
                         {/* <p className="text-gray-600 mt-2 text-sm">
                             33 Mu 3, Surasak Sub-district,<br />
                             Si Racha District, Chonburi 20110<br />

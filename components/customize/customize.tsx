@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
+import Link from "next/link";
 
 export default function CustomizedSection() {
   const ref_customize = useRef(null);
@@ -44,7 +45,7 @@ export default function CustomizedSection() {
           </p>
 
           <button className="w-fit px-8 py-3 rounded-xl bg-black text-white font-medium hover:bg-gray-800 transition shadow-md">
-            Read More →
+            <Link href="/product_prev">Read More →</Link>
           </button>
         </motion.div>
       </div>

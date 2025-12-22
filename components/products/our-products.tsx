@@ -6,28 +6,28 @@ import Link from "next/link";
 const products = [
     {
         src: "/products/black.jpg",
-        title: "GRAPHENE OXIDE POWDER",
+        title: "Graphene Oxide Powder",
         details:
             "High-purity Graphene Oxide Powder engineered for exceptional dispersion and surface activity. Ideal for advanced applications in composites, coatings, energy storage, and research development. Ensures consistent quality, scalability, and superior performance.",
         link: "/product_prev",
     },
     {
         src: "/products/braw.jpg",
-        title: "REDUCED GRAPHENE OXIDE POWDER",
+        title: "Reduced Graphene Oxide Powder",
         details:
             "With high conductivity and enhanced stability. Engineered for advanced applications in electronics, energy storage, sensors, and high-performance composites, ensuring consistent quality and superior functionality",
         link: "/product_prev",
     },
     {
         src: "/products/bottle_brow_1.jpg",
-        title: "GRAPHENE OXIDE IN SUSPENSION",
+        title: "Graphene Oxide Dispersion in H₂O",
         details:
             "High-purity dispersion ready for advanced applications in coatings, composites, energy storage, and research. Ensures uniform performance and superior processability",
         link: "/product_prev",
     },
     {
         src: "/products/bottle_black_1.jpg",
-        title: "REDUCED GRAPHENE OXIDE IN SUSPENSION",
+        title: "Reduced Graphene Oxide Dispersion in H₂O",
         details:
             "Highly conductive, stable dispersion engineered for advanced applications in electronics, energy storage, sensors, and high-performance composites. Ensures consistent quality and superior processability",
         link: "/product_prev",
@@ -64,14 +64,12 @@ export default function ProductsSection() {
                                     className="rounded-lg w-full h-auto object-cover hover:scale-105 transition-transform duration-300"
                                 />
                             </div>
-
                             {/* Content Section */}
                             <div className="w-full md:w-1/2 p-4 flex flex-col justify-between">
                                 <div>
-                                    <p className="font-bold text-lg text-gray-800 mb-2">{item.title}</p>
+                                    <p className="font-bold text-1xl text-gray-800 mb-2">{item.title}</p>
                                     <p className="text-gray-600 text-sm mb-4">{item.details}</p>
                                 </div>
-
                                 <button className="px-6 py-2 mt-auto rounded-lg bg-black text-white text-sm hover:bg-gray-700 transition">
                                     <Link href={item.link}>Read More →</Link>
                                 </button>

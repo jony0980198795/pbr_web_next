@@ -80,7 +80,7 @@ const AboutUs = () => {
                         nanotechnology.
                     </p>
                     <p className="leading-relaxed text-gray-700">
-                        In collaboration with <b>Phisut Logistics Public Co., Ltd.</b> and{" "}
+                        In collaboration with <b>Pisut Logistics Public Co., Ltd.</b> and{" "}
                         <b>Thai Mechatronics Co., Ltd.</b>, PBR develops
                         large-scale automated production systems and supports
                         advanced industrial innovation in Thailand.
