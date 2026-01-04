@@ -5,28 +5,28 @@ import Link from "next/link";
 
 const products = [
     {
-        src: "/products/black.jpg",
+        src: "/products/grbg_brown/2.png",
         title: "Graphene Oxide Powder",
         details:
             "High-purity Graphene Oxide Powder engineered for exceptional dispersion and surface activity. Ideal for advanced applications in composites, coatings, energy storage, and research development. Ensures consistent quality, scalability, and superior performance.",
         link: "/product_prev",
     },
     {
-        src: "/products/braw.jpg",
+        src: "/products/grbg_gray/2.png",
         title: "Reduced Graphene Oxide Powder",
         details:
             "With high conductivity and enhanced stability. Engineered for advanced applications in electronics, energy storage, sensors, and high-performance composites, ensuring consistent quality and superior functionality",
         link: "/product_prev",
     },
     {
-        src: "/products/bottle_brow_1.jpg",
+        src: "/products/grbt_brown/2.png",
         title: "Graphene Oxide Dispersion in H₂O",
         details:
             "High-purity dispersion ready for advanced applications in coatings, composites, energy storage, and research. Ensures uniform performance and superior processability",
         link: "/product_prev",
     },
     {
-        src: "/products/bottle_black_1.jpg",
+        src: "/products/grbt_yellow/2.png",
         title: "Reduced Graphene Oxide Dispersion in H₂O",
         details:
             "Highly conductive, stable dispersion engineered for advanced applications in electronics, energy storage, sensors, and high-performance composites. Ensures consistent quality and superior processability",

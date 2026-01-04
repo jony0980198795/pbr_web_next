@@ -209,7 +209,7 @@ function ProductModal({ selectedProduct }: any) {
         <div>
             {/* Image Section */}
             <div>
-                <div className="bg-gray-100 flex items-center justify-center p-4">
+                <div className="flex items-center justify-center p-4">
                     <Image
                         src={mainImage}
                         alt={selectedProduct.name}
@@ -230,9 +230,9 @@ function ProductModal({ selectedProduct }: any) {
                             <Image
                                 src={img}
                                 alt={selectedProduct.name}
-                                width={160}
-                                height={80}
-                                className="rounded-2xl"
+                                width={100}
+                                height={60}
+                                className="rounded-2xl mr-6 mb-6 ml-2"
                             />
                         </div>
                     ))}
