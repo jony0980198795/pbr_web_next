@@ -36,10 +36,10 @@ export const products: Product[] = [
             "High-purity Graphene Oxide Powder engineered for exceptional dispersion and surface activity. Ideal for advanced applications in composites, coatings, energy storage, and research development. Ensures consistent quality, scalability, and superior performance.",
         image: "/products/black.jpg",
         graph_img: [
-            "/products/grbg_brown/1.png",
-            "/products/grbg_brown/2.png",
-            "/products/grbg_brown/3.png",
-            "/products/grbg_brown/4.png",
+            "/products/go_powder/5.png",
+            "/products/go_powder/4.png",
+            "/products/go_powder/3.png",
+            "/products/go_powder/2.png",
         ],
         details: {
             highlight: "High conductivity, enhanced stability, engineered for advanced technology applications.",
@@ -80,10 +80,10 @@ export const products: Product[] = [
             "With high conductivity and enhanced stability. Engineered for advanced applications in electronics, energy storage, sensors, and high-performance composites, ensuring consistent quality and superior functionality",
         image: "/products/braw.jpg",
         graph_img: [
-            "/products/grbg_gray/1.png",
-            "/products/grbg_gray/2.png",
-            "/products/grbg_gray/3.png",
-            "/products/grbg_gray/4.png",
+            "/products/rgo_powder/10.png",
+            "/products/rgo_powder/9.png",
+            "/products/rgo_powder/8.png",
+            "/products/rgo_powder/7.png",
             
         ],
         details: {
@@ -128,12 +128,12 @@ export const products: Product[] = [
         name: "Graphene Oxide Dispersion in H₂O",
         description:
             "High-purity dispersion ready for advanced applications in coatings, composites, energy storage, and research. Ensures uniform performance and superior processability",
-        image: "/products/go_water/GO_1000ml.png", //"/products/rgo_water/rGO_1000ml.png",
+        image: "/products/grbt_brown/3.png",
         graph_img: [
-            "/products/grbt_brown/1.png",
-            "/products/grbt_brown/2.png",
-            "/products/grbt_brown/3.png",
-            "/products/grbt_brown/4.png",
+            "/products/go_water/1.png",
+            "/products/go_water/4.png",
+            "/products/go_water/2.png",
+            "/products/go_water/3.png",
         ],
         details: {
             highlight: "High conductivity, enhanced stability, engineered for advanced technology applications.",
@@ -174,12 +174,12 @@ export const products: Product[] = [
         name: "Reduced Graphene Oxide Dispersion in H₂O",
         description:
             "Highly conductive, stable dispersion engineered for advanced applications in electronics, energy storage, sensors, and high-performance composites. Ensures consistent quality and superior processability",
-        image: "/products/rgo_water/rGO_1000ml.png", //"/products/go_water/GO_1000ml.png",
+        image: "/products/grbt_yellow/3.png",
         graph_img: [
-            "/products/grbt_yellow/1.png",
-            "/products/grbt_yellow/2.png",
-            "/products/grbt_yellow/3.png",
-            "/products/grbt_yellow/4.png",
+            "/products/rgo_water/6.png",
+            "/products/rgo_water/9.png",
+            "/products/rgo_water/7.png",
+            "/products/rgo_water/8.png",
         ],
         details: {
             highlight: "High conductivity, enhanced stability, engineered for advanced technology applications.",
